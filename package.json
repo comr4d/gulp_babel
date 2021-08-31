@@ -1,0 +1,14 @@
+{
+  "name": "gulp_babel",
+  "version": "1.0.0",
+  "description": "gulp_babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip Tolstenkov",
+  "license": "WTFPL",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
