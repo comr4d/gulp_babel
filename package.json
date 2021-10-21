@@ -8,7 +8,8 @@
     "lint:fix": "eslint ./src --fix",
     "dev": "gulp watch",
     "build:dev": "gulp build",
-    "build:prod": "gulp build --prod"
+    "build:prod": "gulp build --prod",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -37,7 +38,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
-    "husky": "^7.0.2",
+    "husky": "^7.0.4",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1"
   }
