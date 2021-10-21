@@ -14,4 +14,4 @@ export const watch = () => {
   console.log(config.isProd);
 };
 
-const test = 1;
+const test = 1
