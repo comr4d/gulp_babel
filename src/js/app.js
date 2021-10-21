@@ -1,9 +1,11 @@
-const a = 1;
+var a = 1;
 
 function foo(name) {
   const lastName = name;
+  return lastName;
 }
 
-const x = 200;
+var x = 200;
+foo('Phil');
 
-console.log(x);
+console.log(x, a);
