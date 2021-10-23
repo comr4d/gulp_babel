@@ -1,17 +1,17 @@
-import config from './gulp/config';
+// import config from "./gulp/config";
 
-config.setEnv();
+// config.setEnv();
 
-// exports.test = () => {
-//   console.log(process.argv.includes('--prod'));
+// // exports.test = () => {
+// //   console.log(process.argv.includes('--prod'));
+// // };
+
+// export const build = () => {
+//   console.log(config.isProd);
 // };
 
-export const build = () => {
-  console.log(config.isProd);
-};
+// export const watch = () => {
+//   console.log(config.isProd);
+// };
 
-export const watch = () => {
-  console.log(config.isProd);
-};
-
-const test = 1
+// const test = 1;

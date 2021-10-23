@@ -17,8 +17,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "npm run lint:fix",
-    "*.{js,css}": "prettier --write"
+    "*.js": "eslint --fix --cache"
   },
   "author": "Philip Tolstenkov",
   "license": "WTFPL",
