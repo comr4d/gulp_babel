@@ -5,7 +5,7 @@ function foo(name) {
   return lastName;
 }
 
-const x = 2000;
+const x = 200;
 
 foo("Phil");
 
