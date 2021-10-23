@@ -1,14 +1,13 @@
-const a = 100
-
+var a = 100;
 
 function foo(name) {
   const lastName = name;
   return lastName;
 }
 
-const x =2000
+var x = 2000;
 
-foo('Phil');
+foo("Phil");
 
-console.log(x)
-console.log(a)
+console.log(x);
+console.log(a);
